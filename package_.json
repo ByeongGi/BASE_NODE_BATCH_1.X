@@ -1,0 +1,24 @@
+{
+  "name": "node_batch_1.x",
+  "version": "1.0.0",
+  "description": "batch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "batch"
+  ],
+  "author": "ByeongGiKim",
+  "license": "MIT",
+    "devDependencies": {
+    "casperjs": "^1.1.3",
+    "jquery": "^3.2.1",
+    "phantomjs": "^2.1.7",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.3.3",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.4",
+    "mpromise": "^0.5.5"
+  },
+}

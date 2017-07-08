@@ -1,0 +1,23 @@
+{
+  "name": "facebookexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ByeongGiKim",
+  "license": "MIT",
+  "devDependencies": {
+    "casperjs": "^1.1.3",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.4",
+    "mpromise": "^0.5.5",
+    "phantomjs": "^2.1.7",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {}
+}
