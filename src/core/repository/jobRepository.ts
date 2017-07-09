@@ -3,8 +3,6 @@
  * 
  * 
  */
-
-
 import { Repository, Job} from '../interfaces';
 
 class JobRepository implements Repository {
