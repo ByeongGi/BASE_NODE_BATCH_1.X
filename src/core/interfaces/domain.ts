@@ -1,11 +1,14 @@
-export interface JobParameter {
-    id: string;
-    name: string;
-    interalParameter?: Map<string,any>;
+
+
+export interface JobParameter{
+    id?: string; 
+    name?: string;
+    parameter?: Map<string,any>;
 }
+
 export interface JobExecutor {
-    execute:Function;
-}
+    execute(jobParameter:JobParameter):any;
+} 
 
 export interface Job {
     id: string;
@@ -14,7 +17,3 @@ export interface Job {
     jobParameter?:JobParameter;
     jobExecutor?:JobExecutor;
 }
-
-
-
-
